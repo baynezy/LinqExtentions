@@ -8,13 +8,13 @@ namespace LinqExtensions.Test
 	class EachExtensionTest
 	{
 		[Test]
-		public void ForEach_WhenPresentedWithEnumerable_ThenAllowEachMethod()
+		public void Each_WhenPresentedWithEnumerable_ThenAllowEachMethod()
 		{
 			try
 			{
 				var enmumerable = CreateEnumerable();
 				var counter = 0;
-				enmumerable.ForEach(i => counter += i);
+				enmumerable.Each(i => counter += i);
 			}
 			catch (Exception e)
 			{
@@ -23,11 +23,11 @@ namespace LinqExtensions.Test
 		}
 
 		[Test]
-		public void ForEach_WhenIteratingThroughEnumerable_ThenUpdateCounter()
+		public void Each_WhenIteratingThroughEnumerable_ThenUpdateCounter()
 		{
 			var enmumerable = CreateEnumerable();
 			var counter = 0;
-			enmumerable.ForEach(i => counter += i);
+			enmumerable.Each(i => counter += i);
 
 			Assert.That(counter, Is.EqualTo(10));
 		}
