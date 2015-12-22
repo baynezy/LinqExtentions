@@ -1,8 +1,27 @@
 # LinqExtensions
 
-A Library or extensions for Linq
+A Library of extensions for Linq
 
-[![NuGet version](https://badge.fury.io/nu/LinqExtensions.svg)](http://badge.fury.io/nu/LinqExtensions) ![Build Status](https://ci.appveyor.com/api/projects/status/x3e8lv4uo02mpnr1?svg=true) 
+## Build Status
+
+<table>
+    <tr>
+        <th>master</th>
+		<td><a href="https://ci.appveyor.com/project/baynezy/linqextensions"><img src="https://ci.appveyor.com/api/projects/status/x3e8lv4uo02mpnr1/branch/master?svg=true" alt="master" title="master" /></a></td>
+    </tr>
+    <tr>
+        <th>develop</th>
+		<td><a href="https://ci.appveyor.com/project/baynezy/linqextensions"><img src="https://ci.appveyor.com/api/projects/status/x3e8lv4uo02mpnr1/branch/develop?svg=true" alt="develop" title="develop" /></a></td>
+    </tr>
+</table>
+
+## Nuget
+
+[![NuGet version](https://badge.fury.io/nu/LinqExtensions.svg)](http://badge.fury.io/nu/LinqExtensions)
+
+### Install
+
+    PM> Install-Package LinqExtensions
 
 ## Currently supported
 
